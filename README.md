@@ -1,8 +1,8 @@
 # 5 Calls React Port
 
+**NOTE**: This code has been moved to the [5 Calls react-dev repo](https://github.com/5calls/react-dev). The React version of 5 Calls that was based on this prototype was deployed to production in September, 2017.
+-----------------------------------------------------------
 This repo holds code for the port of the [5 Calls web site](https://5calls.org) from the [Choo](https://choo.io) front-end framework to [React](https://facebook.github.io/react/) with [Redux](http://redux.js.org/) for state management and [Typescript](https://www.typescriptlang.org/) for type safety and documentation.
-
-The current application build is deployed [here](http://104.236.37.184/).
 
 The code for the Choo version of the 5 Calls front-end is located [here](https://github.com/5calls/5calls).
 
