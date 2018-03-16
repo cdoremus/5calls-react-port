@@ -30,7 +30,7 @@ class IssuesListItem extends React.Component<Props, State> {
         <Link
             aria-controls="content"
             className={`issues-list__item ${isCompleted} ${isActive}`}
-            to="/issue"
+            to={`/issue/${this.props.issue.id}`}
             onClick={() => this.issueSelected(this.props.issue)}
         >
           <span aria-live="polite" className={`issues-list__item__status ${isCompleted} ${isActive}`}>

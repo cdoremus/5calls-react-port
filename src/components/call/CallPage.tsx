@@ -5,10 +5,12 @@ import { RouteComponentProps } from 'react-router-dom';
 
 interface Props extends RouteComponentProps<{}> { }
 
-const CallPage: React.StatelessComponent<Props> = ({match}: Props) => (
-  <Layout>
-    <CallContainer />
-  </Layout>
-);
+const CallPage: React.StatelessComponent<Props> = ({ match }: Props) => {
+  return (
+    <Layout>
+      <CallContainer issueId={(match.params as any).id} />
+    </Layout>
+  );
+};
 
 export default CallPage;
